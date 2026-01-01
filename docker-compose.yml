@@ -1,5 +1,6 @@
 services:
   server:
+    image: alexlead17/mooc_docker_3_2:latest
     build:
       context: ./src
     ports:

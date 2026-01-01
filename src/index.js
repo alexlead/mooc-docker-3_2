@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1><p>This is my first Dockerized Node.js application.</p><p>Enjoy!</p>')
+  res.send('<h1>Hello World!</h1><p>This is Dockerized Node.js application.</p><p>Prepared for MOOC ex 3.2.</p><p>Enjoy!</p>')
 })
 
 const PORT = 8080
